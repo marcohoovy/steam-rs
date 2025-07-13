@@ -21,7 +21,11 @@ serde = { version = "1.0.196", features = ["derive"] }
 
 serde_json = "1.0.138"
 serde-this-or-that = "0.5.0"
-tokio = { version = "1.36.0", features = ["full"] }
+tokio = { version = "1.46.1", features = ["full"] }
 
 [dev-dependencies]
 tokio-test = "0.4.3"
+
+[features]
+default = []
+partner = []
